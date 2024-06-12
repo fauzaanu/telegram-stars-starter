@@ -6,5 +6,3 @@ RUN pip install poetry && poetry config virtualenvs.create false
 COPY . /app/
 RUN ls /app/
 RUN poetry install --no-interaction --no-root
-ENV TELEGRAM_BOT_TOKEN ${TELEGRAM_BOT_TOKEN}
-RUN poetry run python bot.py
