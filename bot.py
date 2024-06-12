@@ -51,7 +51,7 @@ async def precheckout_callback(update, context):
 
 if __name__ == '__main__':
     load_dotenv()
-    token = os.getenv('TELEGRAM_BOT_TOKEN')
+    token = os.environ['TELEGRAM_BOT_TOKEN']
     application = ApplicationBuilder().token(token).build()
 
     commands = CommandHandler('start', start_command)

@@ -6,4 +6,4 @@ RUN pip install poetry && poetry config virtualenvs.create false
 COPY . /app/
 RUN ls /app/
 RUN poetry install --no-interaction --no-root
-RUN poetry run python bot.py
+CMD ["poetry", "run", "python", "bot.py"]
