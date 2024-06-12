@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "wallpaperplus"
+name = "telegram-stars-starter"
 version = "0.1.0"
-description = ""
+description = "Telegram stars starter template"
 authors = ["fauzaanu <fauzaangasim@gmail.com>"]
 readme = "README.md"
 
