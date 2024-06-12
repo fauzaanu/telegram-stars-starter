@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    command: sh -c "python bot.py"
+    volumes:
+      - ./:/app
+    restart: always
