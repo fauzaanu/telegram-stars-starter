@@ -33,9 +33,7 @@ async def send_invoice(update, context):
         payload='WPBOT-PYLD',
         currency='XTR',
         prices=[
-            LabeledPrice('Basic', 100),
-            LabeledPrice('Premium', 200),
-            LabeledPrice('Pro', 300),
+            LabeledPrice('Basic', 100)
         ],
         provider_token='',
     )
